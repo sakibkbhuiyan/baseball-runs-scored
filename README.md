@@ -1,7 +1,8 @@
 baseball-runs-scored
 ==============================
 
-A short description of the project.
+<img src="reports/figures/dash_app_gif.gif">
+
 
 Project Organization
 ------------
