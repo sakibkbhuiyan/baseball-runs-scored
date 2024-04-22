@@ -47,7 +47,7 @@ df_filtered = df[df['era'] == chosen_era_1]
 
 ## Set axis limits for plots 
 axis_upper_bound_heat = max(max(df_agg['home_team_score']), max(df_agg['visiting_team_score']))
-axis_upper_bound_hist = max(df['score_difference'])
+axis_upper_bound_hist = df['score_difference'].quantile(q = 0.99)
 
 ## Set plot colors 
 colors = {"background": "#5E6572", "foreground": "#EEF1EF"}
