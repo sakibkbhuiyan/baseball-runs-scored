@@ -2,7 +2,7 @@ Baseball Runs Scored Dashboard
 ==============================
 
 
-This dashboard visualizes baseball game scores across different eras, allowing users to explore the distribution of runs scored by visiting and home teams.
+This dashboard visualizes baseball game scores across different eras, allowing users to explore the distribution of runs scored in different eras of baseball history.
 
 <h2>Overview</h2>
 The Baseball Runs Scored Dashboard is a web application built using Dash, a Python framework for building analytical web applications. It provides interactive visualizations of baseball game scores aggregated by era, allowing users to compare the distribution of runs scored in different historical periods.
