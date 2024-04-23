@@ -22,7 +22,8 @@ The Baseball Runs Scored Dashboard is a web application built using Dash, a Pyth
 <ol>
     <li>Clone the repository to your local machine.
     <li>Install the required dependencies by running <code>pip install -r requirements.txt </code>.
-    <li>Run the Dash application using <code>python app.py </code>.
+    <li>Navigate to the <a href="src/visualization">folder</a> that stores <code>app.py</code>.
+    <li>Run the Dash application using <code>python app.py</code>.
     <li>Access the dashboard in your web browser at <code>http://127.0.0.1:8050/</code>.
 </ol>
 
@@ -40,7 +41,7 @@ The data used in this dashboard comes from Retrosheet's Baseball Game Logs, whic
 
 <h2>Contributors</h2>
 <ul>
-    <li><a href="https://github.com/sakibkbhuiyan">Sakib Bhuiyan</a>
+    <li><a href="https://github.com/sakibkbhuiyan">@sakibkbhuiyan</a>
 </ul>
 
 --------
@@ -61,13 +62,11 @@ This project is licensed under the MIT License. See the <a href="LICENSE">LICENS
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    │                         the creator's initials, and a short `-` delimited description.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -79,23 +78,22 @@ This project is licensed under the MIT License. See the <a href="LICENSE">LICENS
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+        ├── __init__.py    <- Makes src a Python module
+        │
+        ├── data           <- Scripts to download or generate data
+        │   └── make_dataset.py
+        │
+        ├── features       <- Scripts to turn raw data into features for modeling
+        │   └── build_features.py
+        │
+        ├── models         <- Scripts to train models and then use trained models to make
+        │   │                 predictions
+        │   ├── predict_model.py
+        │   └── train_model.py
+        │
+        └── visualization  <- Scripts to create exploratory and results oriented visualizations
+            └── visualize.py
+   
 
 
 --------
